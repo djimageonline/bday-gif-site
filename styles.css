@@ -1,0 +1,16 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  background-color: rgb(59, 216, 255);
+  color: white;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+#jess-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid rgb(240, 255, 145);
+}
