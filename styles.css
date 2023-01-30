@@ -13,7 +13,7 @@ body {
 
 }
 
-h1, h2, h4, p, .hover-over {
+h1, h2, h4, p, .gift-title, .gift-hover-hint {
   text-shadow: 1px 1px 2px black;
 }
 
@@ -37,8 +37,50 @@ h1, h2, h4, p, .hover-over {
   background: #EFB0C9;
 }
 
-.first-gift {
+.gift-section {
+  margin-top: 50px;
+}
+
+
+.gift-hover-hint {
+  margin-top: 0;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-pic {
+  background-image: url("img/gift-cover.jpg");
+  background-size: cover;
   width: 400px;
+  height: 400px;
   border: 5px solid white;
   border-radius: 5px;
+  margin: 0 auto;
+}
+
+#first-gift-pic:hover{
+  background-image: url("img/Happy.gif");
+  transition: .5s;
+}
+
+#second-gift-pic:hover{
+  background-image: url("img/tom&jerry.gif");
+  transition: .5s;
+}
+
+#third-gift-pic:hover{
+  background-image: url("img/beautiful.gif");
+  transition: .5s;
+}
+
+#fourth-gift-pic:hover{
+  background-image: url("img/Denzel.gif");
+  transition: .5s;
+}
+
+#fifth-gift-pic:hover{
+  background-image: url("img/pizza.gif");
+  transition: .5s;
 }
